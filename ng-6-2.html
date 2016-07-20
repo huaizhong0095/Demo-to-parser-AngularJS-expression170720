@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="ng6-2">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/angular.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="6nd.js"></script>
+
+</head>
+<body>
+<div ng-controller="ng6-2Controllr"  clock>
+   <div id="emailEidtor">
+       <div class="panel-body"><input type="email"  placeholder="recipient"/></div>
+       <div class="panel-body"><textarea   ng-model="emailBody" name="" id="" cols="30" rows="10"></textarea></div>
+   </div>
+    <div id="emailPreview" clock>
+        <pre> __previewText__</pre>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="6nd">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/angular.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="6nd.js"></script>
+
+</head>
+<body>
+<div ng-controller="6nd"  clock>
+   <div class="panel"> <input type="text " ng-model="expr" placeholder="Enter please"/>
+    <h2>{{parsedValue}}</h2></div>
+    
+    <div class="panel"><input type="text" ng-model="to" placeholder="recipient"/>
+    <textarea name="" ng-model="emailBody" id="" cols="30" rows="10"></textarea>
+    <pre>{{previewText}}</pre></div>
+</div>
+</body>
+</html>
